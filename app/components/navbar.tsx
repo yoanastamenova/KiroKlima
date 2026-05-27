@@ -15,8 +15,8 @@ export default function Navbar() {
             <Link href="/proceso" className="text-sm font-bold text-brand-dark/70 hover:text-brand-blue transition">Proceso</Link>
             <Link href="/nosotros" className="text-sm font-bold text-brand-dark/70 hover:text-brand-blue transition">Nosotros</Link>
             <Link href="/contacto" className="text-sm font-bold text-brand-dark/70 hover:text-brand-blue transition">Contacto</Link>
-            <button className="bg-brand-blue text-white hover:bg-brand-blue-light
-            inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold transition hover:cursor-pointer"> Presupuesto gratis {'->'}</button>
+            <Link href="/contacto" className="bg-brand-blue text-white hover:bg-brand-blue-light
+            inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold transition hover:cursor-pointer"> Presupuesto gratis {'->'} </ Link>
         </div>
         </div>
     </nav>
