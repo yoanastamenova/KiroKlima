@@ -93,7 +93,7 @@ export default function Servicios() {
               </div>
               <div className="p-8 md:p-10">
                 <h3 className="font-serif text-2xl md:text-3xl font-semibold flex items-center gap-3">
-                  <span className="p-2.5 bg-gradient-to-br from-brand-orange/20 to-brand-orange/5 rounded-xl shadow-sm">
+                  <span className="p-2.5 bg-linear-to-br from-brand-orange/20 to-brand-orange/5 rounded-xl shadow-sm">
                     <svg className="w-6 h-6 text-brand-orange" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                       <path d="M12.8 19.6A2 2 0 1 0 14 16H2" />
                       <path d="M17.5 8a2.5 2.5 0 1 1 2 4H2" />
