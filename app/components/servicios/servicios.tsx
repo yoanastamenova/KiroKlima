@@ -34,8 +34,8 @@ export default function Servicios() {
                 />
               </div>
               <div className="p-8 md:p-10">
-                <h3 className="font-serif text-2xl font-semibold flex items-center gap-3">
-                  <span className="p-2 bg-brand-orange/10 rounded-xl">
+                <h3 className="font-serif text-2xl md:text-3xl font-semibold flex items-center gap-3">
+                  <span className="p-2.5 bg-linear-to-br from-brand-orange/20 to-brand-orange/5 rounded-xl shadow-sm">
                     <svg className="w-6 h-6 text-brand-orange" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                       <path d="M3 21h18" />
                       <path d="M3 17c2-2 4-2 6 0s4 2 6 0 4-2 6 0" />
@@ -45,31 +45,39 @@ export default function Servicios() {
                   </span>
                   Suelo radiante
                 </h3>
-                <p className="mt-4 text-gray-500 leading-8">
+                <p className="mt-5 text-gray-600 leading-relaxed text-base md:text-lg">
                   Calor envolvente desde el suelo, distribuido de forma
-                  uniforme. Invisible, silencioso y compatible con cualquier
+                  uniforme. <span className="text-gray-800 font-medium">Invisible, silencioso</span> y compatible con cualquier
                   acabado: tarima, porcelánico o microcemento.
                 </p>
-                <ul className="mt-6 space-y-2.5">
-                  <li className="flex items-start gap-2 text-sm">
-                    <svg className="w-4 h-4 text-brand-orange mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                      <polyline points="20 6 9 17 4 12" />
-                    </svg>
-                    Confort térmico uniforme
-                  </li>
-                  <li className="flex items-start gap-2 text-sm">
-                    <svg className="w-4 h-4 text-brand-orange mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                      <polyline points="20 6 9 17 4 12" />
-                    </svg>
-                    Compatible con refrescamiento en verano
-                  </li>
-                  <li className="flex items-start gap-2 text-sm">
-                    <svg className="w-4 h-4 text-brand-orange mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                      <polyline points="20 6 9 17 4 12" />
-                    </svg>
-                    Sin radiadores ni ruidos
-                  </li>
-                </ul>
+                <div className="mt-4 pt-6">
+                  <ul className="space-y-3">
+                    <li className="flex items-center gap-3 text-sm md:text-base text-gray-700">
+                      <span className="flex items-center justify-center w-5 h-5 rounded-full bg-brand-orange/10">
+                        <svg className="w-3 h-3 text-brand-orange" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                          <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                      </span>
+                      Confort térmico uniforme
+                    </li>
+                    <li className="flex items-center gap-3 text-sm md:text-base text-gray-700">
+                      <span className="flex items-center justify-center w-5 h-5 rounded-full bg-brand-orange/10">
+                        <svg className="w-3 h-3 text-brand-orange" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                          <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                      </span>
+                      Compatible con refrescamiento en verano
+                    </li>
+                    <li className="flex items-center gap-3 text-sm md:text-base text-gray-700">
+                      <span className="flex items-center justify-center w-5 h-5 rounded-full bg-brand-orange/10">
+                        <svg className="w-3 h-3 text-brand-orange" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                          <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                      </span>
+                      Sin radiadores ni ruidos
+                    </li>
+                  </ul>
+                </div>
               </div>
             </article>
             <article className="group relative overflow-hidden rounded-3xl border border-gray-200 bg-card">
@@ -84,8 +92,8 @@ export default function Servicios() {
                 />
               </div>
               <div className="p-8 md:p-10">
-                <h3 className="font-serif text-2xl font-semibold flex items-center gap-3">
-                  <span className="p-2 bg-brand-orange/10 rounded-xl">
+                <h3 className="font-serif text-2xl md:text-3xl font-semibold flex items-center gap-3">
+                  <span className="p-2.5 bg-gradient-to-br from-brand-orange/20 to-brand-orange/5 rounded-xl shadow-sm">
                     <svg className="w-6 h-6 text-brand-orange" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                       <path d="M12.8 19.6A2 2 0 1 0 14 16H2" />
                       <path d="M17.5 8a2.5 2.5 0 1 1 2 4H2" />
@@ -94,29 +102,37 @@ export default function Servicios() {
                   </span>
                   Aerotermia
                 </h3>
-                <p className="mt-4 text-gray-500 leading-8">
-                  Bombas de calor de última generación que extraen energía del aire. Calefacción, refrigeración y ACS con una sola máquina y hasta un 75 % de ahorro frente al gas.
+                <p className="mt-5 text-gray-600 leading-relaxed text-base md:text-lg">
+                  Bombas de calor de última generación que extraen energía del aire. Calefacción, refrigeración y ACS con <span className="text-gray-800 font-medium">una sola máquina</span> y hasta un <span className="text-brand-orange font-semibold">75% de ahorro</span> frente al gas.
                 </p>
-                <ul className="mt-6 space-y-2.5">
-                  <li className="flex items-start gap-2 text-sm">
-                    <svg className="w-4 h-4 text-brand-orange mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                      <polyline points="20 6 9 17 4 12" />
-                    </svg>
-                    Energía renovable y limpia
-                  </li>
-                  <li className="flex items-start gap-2 text-sm">
-                    <svg className="w-4 h-4 text-brand-orange mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                      <polyline points="20 6 9 17 4 12" />
-                    </svg>
-                    3 en 1: calor, frío y agua caliente
-                  </li>
-                  <li className="flex items-start gap-2 text-sm">
-                    <svg className="w-4 h-4 text-brand-orange mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                      <polyline points="20 6 9 17 4 12" />
-                    </svg>
-                    Compatible con autoconsumo solar
-                  </li>
-                </ul>
+                <div className="mt-4 pt-6">
+                  <ul className="space-y-3">
+                    <li className="flex items-center gap-3 text-sm md:text-base text-gray-700">
+                      <span className="flex items-center justify-center w-5 h-5 rounded-full bg-brand-orange/10">
+                        <svg className="w-3 h-3 text-brand-orange" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                          <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                      </span>
+                      Energía renovable y limpia
+                    </li>
+                    <li className="flex items-center gap-3 text-sm md:text-base text-gray-700">
+                      <span className="flex items-center justify-center w-5 h-5 rounded-full bg-brand-orange/10">
+                        <svg className="w-3 h-3 text-brand-orange" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                          <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                      </span>
+                      3 en 1: calor, frío y agua caliente
+                    </li>
+                    <li className="flex items-center gap-3 text-sm md:text-base text-gray-700">
+                      <span className="flex items-center justify-center w-5 h-5 rounded-full bg-brand-orange/10">
+                        <svg className="w-3 h-3 text-brand-orange" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                          <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                      </span>
+                      Compatible con autoconsumo solar
+                    </li>
+                  </ul>
+                </div>
               </div>
             </article>
           </div>
