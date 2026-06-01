@@ -83,24 +83,24 @@ export default function Contacto() {
             </div>
           </div>
           </div>
-          <form className="rounded-3xl border border-border bg-card p-8 md:p-10 space-y-5">
+          <form className="rounded-3xl border border-gray-200 bg-card p-8 md:p-10 space-y-5">
             <div className="grid sm:grid-cols-2 gap-5">
                 <div>
                     <label htmlFor="name" className="text-sm font-medium">Nombre</label>
-                    <input id="name" type="text" className="mt-1.5 w-full rounded-xl border border-input bg-background px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-accent" name="name"/>
+                    <input id="name" type="text" className="mt-1.5 w-full rounded-xl border border-gray-200 bg-background px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-accent" name="name"/>
                 </div>
                 <div>
                     <label htmlFor="phone" className="text-sm font-medium">Teléfono</label>
-                    <input id="phone" type="text" className="mt-1.5 w-full rounded-xl border border-input bg-background px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-accent" name="phone"/>
+                    <input id="phone" type="text" className="mt-1.5 w-full rounded-xl border border-gray-200 bg-background px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-accent" name="phone"/>
                 </div>
             </div>
             <div>
                 <label htmlFor="email" className="text-sm font-medium">Email</label>
-                <input id="email" type="text" className="mt-1.5 w-full rounded-xl border border-input bg-background px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-accent" name="email"/>
+                <input id="email" type="text" className="mt-1.5 w-full rounded-xl border border-gray-200 bg-background px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-accent" name="email"/>
             </div>
             <div>
                 <label htmlFor="interes">Servicio de interés</label>
-                <select id="interes" className="mt-1.5 w-full rounded-xl border border-input bg-background px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-accent">
+                <select id="interes" className="mt-1.5 w-full rounded-xl border border-gray-200 bg-background px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-accent">
                     <option value="suelo">Suelo radiante</option>
                     <option value="aerotermia">Aerotermia</option>
                     <option value="sueloyaerotermia">Suelo radiante + Aerotermia</option>
@@ -109,7 +109,7 @@ export default function Contacto() {
             </div>
             <div>
               <label htmlFor="cuenta">Cuéntanos tu proyecto</label>
-              <textarea name="proyecto" id="proyecto" className="mt-1.5 w-full rounded-xl border border-input bg-background px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-accent" placeholder="Tipo de vivienda, metros cuadrados, plazos…"></textarea>
+              <textarea name="proyecto" rows={4} id="proyecto" className="mt-1.5 w-full rounded-xl border border-gray-200 bg-background px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-accent" placeholder="Tipo de vivienda, metros cuadrados, plazos…"></textarea>
             </div>
             <button type="submit" className="w-full inline-flex items-center justify-center gap-2 rounded-full bg-brand-blue text-brand-white px-7 py-3.5 text-white font-semibold hover:bg-primary/90 hover:cursor-pointer transition">Enviar solicitud {"->"}</button>
           </form>
