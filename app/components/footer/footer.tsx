@@ -11,13 +11,13 @@ export default function Footer() {
         </p>
         </div>
         <div className="flex items-center gap-3">
-            <a href="#" className="text-sm text-gray-500">
+            <a href="#" className="text-sm text-gray-500 hover:text-brand-orange transition">
             Aviso Legal
            </a>
-           <a href="#" className="text-sm text-gray-500">
+           <a href="#" className="text-sm text-gray-500 hover:text-brand-orange transition">
             Privacidad
            </a>
-           <a href="#" className="text-sm text-gray-500">
+           <a href="#contacto" className="text-sm text-gray-500 hover:text-brand-orange transition">
             Contacto
            </a>
            </div>
