@@ -34,7 +34,7 @@ export default function Contacto() {
                 <p className="text-xs uppercase tracking-wider text-gray-500">
                   Teléfono
                 </p>
-                <p className="font-bold text-black">+34 620 411 385</p>
+                <a href="tel:+34620411385" className="font-bold text-black hover:text-brand-orange transition">+34 620 411 385</a>
               </div>
             </div>
             <div className="flex items-center gap-4">
@@ -56,7 +56,7 @@ export default function Contacto() {
                 <p className="text-xs uppercase tracking-wider text-gray-500">
                   Email
                 </p>
-                <p className="font-bold text-black">hola@kiroklima.es</p>
+                <a href="mailto:hola@kiroklima.es" className="font-bold text-black hover:text-brand-orange transition">hola@kiroklima.es</a>
               </div>
             </div>
             <div className="flex items-center gap-4">
