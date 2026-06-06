@@ -20,7 +20,6 @@ const [isOpen, setIsOpen] = useState(false);
         {/* Desktop menu */}
         <div className="hidden md:flex items-center space-x-9">
           <a href="#servicios" className="text-sm font-bold text-brand-dark/70 hover:text-brand-blue transition">Servicios</a>
-          <Link href="/beneficios" className="text-sm font-bold text-brand-dark/70 hover:text-brand-blue transition">Beneficios</Link>
           <Link href="/proceso" className="text-sm font-bold text-brand-dark/70 hover:text-brand-blue transition">Proceso</Link>
           <Link href="/nosotros" className="text-sm font-bold text-brand-dark/70 hover:text-brand-blue transition">Nosotros</Link>
           <Link href="/contacto" className="text-sm font-bold text-brand-dark/70 hover:text-brand-blue transition">Contacto</Link>
@@ -58,7 +57,6 @@ const [isOpen, setIsOpen] = useState(false);
         <div className="md:hidden border-t border-gray-200 bg-white">
           <div className="px-6 py-4 space-y-4">
             <a href="#servicios" onClick={() => setIsOpen(false)} className="block text-sm font-bold text-brand-dark/70 hover:text-brand-blue transition">Servicios</a>
-            <Link href="#beneficios" onClick={() => setIsOpen(false)} className="block text-sm font-bold text-brand-dark/70 hover:text-brand-blue transition">Beneficios</Link>
             <Link href="#proceso" onClick={() => setIsOpen(false)} className="block text-sm font-bold text-brand-dark/70 hover:text-brand-blue transition">Proceso</Link>
             <Link href="#nosotros" onClick={() => setIsOpen(false)} className="block text-sm font-bold text-brand-dark/70 hover:text-brand-blue transition">Nosotros</Link>
             <Link href="#contacto" onClick={() => setIsOpen(false)} className="block text-sm font-bold text-brand-dark/70 hover:text-brand-blue transition">Contacto</Link>
