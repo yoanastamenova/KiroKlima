@@ -115,6 +115,13 @@ export default function Proceso() {
                 </div>
               </li>
             </ol>
+          <div className="mt-20 flex flex-wrap items-center justify-between gap-6 rounded-3xl border border-gray-200 bg-card p-8 md:p-10">
+            <div>
+              <h3 className="font-serif text-2xl md:text-3xl font-semibold">Listo para empezar?</h3>
+            <p className="mt-2 text-gray-400">Te enviamos una propuesta personalizada en menos de 72 horas.</p>
+            </div>
+            <a href="#contacto" className="inline-flex items-center gap-2 rounded-full bg-brand-blue-light text-primary-white px-7 py-3.5 text-white font-semibold hover:bg-brand-blue/90 transition">Empezar mi proyecto <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-arrow-right w-4 h-4" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg> </a>
+          </div>
           </div>
       </section>
     </>
